@@ -7,9 +7,6 @@ dust = require('dustjs-helpers'),
 pg = require('pg'),
 app = express();
 
-//DB Connect String
-var dbconnect = "postgres://coonvey:@1234567@localhost:5432/coonvey";
-
 // Assign Dust Engine to .dust Files
 app.engine('dust', cons.dust);
 
@@ -22,11 +19,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Set Parser Middleware
 // Make Express app use bodyparser middleware
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Routes
 app.use('/', require('./routes/public'));
+app.use('/token', require('./routes/token'));
 app.use('/api', require('./routes/api'));
 
 // Start server

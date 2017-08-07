@@ -1,21 +1,45 @@
 // Dependencies
 var express = require('express');
 var router = express.Router();
+var pg = require('pg');
+var jwt = require('jsonwebtoken');
 
 // data
 var dummyData = [];
 
-// Routes
-router.get('/', function(req, res){
-  //res.render('index');
-  res.send('api is working fully well');
+// Controllers
+var dataController = require('../server/controllers/data-controller.js');
+
+// Validation Middleware
+router.use(function(req, res, next){
+  var token = req.body.token || req.headers['token'];
+  if(token){
+    jwt.verify(token, process.env.SECRET_KEY, function(err, decode){
+      if(err){
+        res.status(500).send("Invalid Token");
+      }
+      else{
+        next();
+      }
+    })
+  }
+  else {
+    res.send("Please send a token");
+  }
 });
+
+// Routes
+router.post('/', function(req, res){
+  res.send('api is working fully well');
+  //res.render('index');
+});
+
 router.post('/newreg', function(req, res){
   var newreg = req.body.data;
   dummyData.push(newreg);
   res.json({data: dummyData});
-})
-router.get('/regdata', function(req, res){
+});
+router.post('/regdata', function(req, res){
   res.json({data: dummyData});
 });
 
