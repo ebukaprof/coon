@@ -34,6 +34,10 @@ router.post('/', function(req, res){
   //res.render('index');
 });
 
+router.post('/countries', function(req,res){
+  dataController.getCountries(req,res);
+});
+
 router.post('/newreg', function(req, res){
   var newreg = req.body.data;
   dummyData.push(newreg);

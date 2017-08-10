@@ -1,5 +1,268 @@
 {>"layout" /}
 
 {<body}
-  THIS IS THE INDEX
+<section class="mbr-section mbr-parallax-background mbr-after-navbar" id="msg-box5-6" style="background-image: url(/assets/images/bannerdark.png); padding-top: 60px; padding-bottom: 60px;">
+<div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0,0,0);">
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="mbr-table-md-up">
+
+          <!--  <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 20%;">
+               <!-- <div class="mbr-figure"><img src="/assets/images/bookingimg.gif"></div>-->
+          <!--  </div>-->
+          <!--<div class="mbr-table-cell col-md-6text-xs-center text-md-left content-size">-->
+
+          <div class="row">
+
+              <div class="col-md-12 offset-md-3">
+                  <h6 class="mbr-iconfont-features7"> Best Online Bus Booking Platform </h6>
+
+                  <div class="card">
+                      <div class="card-block">
+
+                              <form class="form-inline">
+                                  <div class="form-group">
+                                      <div class="input-with-icon">
+                                          <!-- <img src="/assets/images/Marker-30.png">-->
+                                          <input type="text" class="form-control" placeholder="From">
+                                      </div>
+                                  </div>
+
+                                  <img src="/assets/images/Road-30.png">
+
+                                  <div class="form-group">
+                                      <div class="input-with-icon">
+
+                                          <input type="text" class="form-control" placeholder="To">
+                                      </div>
+                                  </div>
+
+                                  <div class="input-group">
+                                      <span class="input-group-addon">
+                                          <span class="icon icon-calendar"></span>
+                                      </span>
+                                      <input type="text" value="Departure Date" class="form-control" id="departure_date" data-provide="datepicker" style="width: 180px;">
+                                  </div>
+
+                                  <div class="input-group">
+                                      <span class="input-group-addon">
+                                          <span class="icon icon-calendar"></span>
+                                      </span>
+                                      <input type="text" value="Return Date" class="form-control" data-provide="datepicker" style="width: 180px;">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <!-- Submit button -->
+                                      <button class="button" style="vertical-align:middle"><span>Search Bus </span></button>
+                                  </div>
+
+                              </form>
+
+
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>
+
+
+      </div>
+
+
+
+
+  </div>
+</div>
+
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="/assets/images/choice.png" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards" height="100%">
+                <div class="caption">
+                    <div class="container">
+                        <h6>MAXIMUM CHOICE</h6>
+                        <p class="card-description">With our search system we provide a wide range of transport services to compare. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="/assets/images/book.png" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards" height="100%">
+                <div class="caption">
+                    <div class="container">
+                        <h6>BOOK AT YOUR COMFORT</h6>
+                        <p class="card-description">Book ticket(s) in seconds at your comfort anywhere anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="/assets/images/checkin.png" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards" height="100%">
+                <div class="caption">
+                    <div class="container">
+                        <h6>CHECK-IN</h6>
+                        <p class="card-description">Check-in to select a comfortable seating position. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class=container>
+
+
+    <div class="card">
+
+
+        <section class="mbr-cards mbr-section mbr-section-nopadding" id="features7-h" style="background-color: rgb(255, 255, 255);">
+
+
+
+
+
+
+            <div class="mbr-cards-row row">
+                <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div class="container">
+                        <div class="card cart-block">
+                            <img src="/assets/images/promo.png" width="235" height="235">
+                            <div class="card-block">
+                                <h4 class="card-title">Discounts</h4>
+
+                                <p class="card-text" style="padding-bottom:10px;">Promo discount! Additional discounts sponsored by your favorite transport company exclusively on bus tickets booked via Coonvey</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 40px; padding-bottom: 0px;">
+                    <div class="container">
+                        <div class="card cart-block">
+                            <img src="/assets/images/amenities.png" width="235" height="235">
+
+                            <div class="card-block">
+                                <h4 class="card-title">Amenities</h4>
+
+                                <p class="card-text">Get information on amenities provided by  verious bus companies.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="mbr-cards mbr-section mbr-section-nopadding" id="features7-i" style="background-color: rgb(255, 255, 255);">
+
+
+
+            <div class="mbr-cards-row row">
+                <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 40px; padding-bottom: 40px;">
+                    <div class="container">
+                        <div class="card cart-block">
+                            <img src="/assets/images/tracking.png" width="235" height="235">
+                            <div class="card-block">
+                                <h4 class="card-title">Live Tracking</h4>
+
+                                <p class="card-text">Track your bus and keep your family informed with our &lsquo; Bus Tracking mobile feature&rsquo;  and know the exact location in real-time.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 40px; padding-bottom: 40px;">
+                    <div class="container">
+                        <div class="card cart-block">
+                            <img src="/assets/images/rating.png" width="235" height="235">
+                            <div class="card-block">
+                                <h4 class="card-title">Ratings and Reviews</h4>
+
+                                <p class="card-text">See ratings and reviews from fellow travellers to choose your bus!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
+
+<section class="mbr-info mbr-section mbr-section-md-padding" id="msg-box2-k" style="background-color: rgb(102,102,102); padding-top: 90px; padding-bottom: 90px;">
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="mbr-table-md-up">
+
+                <div class="mbr-table-cell mbr-right-padding-md-up col-md-8 text-xs-center text-md-left">
+                    <h3 class="mbr-info-title mbr-section-title display-2">THE FASTEST WAY TO BOOK YOUR TICKET</h3>
+                    <h2 class="mbr-info-subtitle mbr-section-subtitle">Compare Services And Choose Your Best. You have a choice..</h2>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-parallax-background" id="msg-box5-j" style="background-image: url(/assets/images/videobg-2000x520-69.png); padding-top: 120px; padding-bottom: 120px;">
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="mbr-table-md-up">
+
+
+
+                <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size">
+                    <h3 class="mbr-section-title display-2">COONVEY &nbsp;MOBILE &nbsp; &nbsp; &nbsp;APP</h3>
+                    <div class="lead">
+
+                        <p>A swift booking mobile application.Save time and book on time at your comfort. Install Coonvey app on your mobile to convey at ease.</p>
+
+                    </div>
+
+                    <div><a href=""><img src="/assets/images/google.png"></a></div>
+                </div>
+
+                <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 45%;">
+                    <div class="mbr-figure"><img src="/assets/images/abright-1400x1955-72.png"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
 {/body}

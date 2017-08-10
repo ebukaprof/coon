@@ -1,22 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Coonvey Service</title>
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="coonvey.com aid you in booking bus ticket online"/>
+  <meta name="keywords" content="bus, ticket, airline, park, vehicle, abuja to lagos, lagos to abuja, abuja to owerri, owerri to enugu, abuja to kano, transport platform, transport, abc transport, GOD transport, GUO transport, peace transport, ifesinachi transport, nigeria transport system, online nigeria transport system, online nigeria transport platform">
+  <meta itemprop="name" content="Get bus ticket online in Nigeria | coonvey.com">
+  <meta itemprop="description" content="How to book ticket online, how to book online, travellers, traveling, bus ticket, food, restaurant">
+<title>Coonvey Solution</title>
+<!--<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/style.css">-->
+<link rel="stylesheet" href="/assets/Bootstrap-datapicker/bootstrap-datepicker3.css">
+<link rel="stylesheet" href="/assets/bootstrap-material-design-font/css/material.css">
+<link rel="stylesheet" href="/assets/web/assets/mobirise-icons/mobirise-icons.css">
+<link rel="stylesheet" href="/assets/et-line-font-plugin/style.css">
+<link rel="stylesheet" href="/assets/tether/tether.min.css">
+<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/animate.css/animate.min.css">
+<link rel="stylesheet" href="/assets/dropdown/css/style.css">
+<link rel="stylesheet" href="/assets/socicon/css/socicon.min.css">
+<link rel="stylesheet" href="/assets/theme/css/style.css">
+<link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<!--<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />-->
 
 </head>
 <body>
-  <div class="container">
+
+  {+body /}
+
+<!--Suppose to be for the footer-->
+  <section class="mbr-section mbr-section-md-padding" id="social-buttons4-m" style="background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-xs-center">
+                <h3 class="mbr-section-title display-2"></h3>
+                <div><a class="btn btn-social" title="Twitter" target="_blank" href="#"><i class="socicon socicon-twitter"></i></a> <a class="btn btn-social" title="Facebook" target="_blank" href="#"><i class="socicon socicon-facebook"></i></a> <a class="btn btn-social" title="Google+" target="_blank" href="https://plus.google.com/u/0/+Mobirise/posts"><i class="socicon socicon-google"></i></a> <a class="btn btn-social" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw"><i class="socicon socicon-youtube"></i></a> <a class="btn btn-social" title="Instagram" target="_blank" href="https://instagram.com/mobirise/"><i class="socicon socicon-instagram"></i></a>      </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-footer mbr-section mbr-section-md-padding mbr-parallax-background" id="contacts3-n" style="background-image: url(/assets/images/footer-2000x832-2.png); padding-top: 30px; padding-bottom: 30px;">
+
+
+    <div class="row">
+        <div class="mbr-company col-xs-12 col-md-6 col-lg-3">
+
+            <div class="mbr-company card">
+                <div><img src="/assets/images/apple-touch-icon-180x180-265x265-78.png" class="card-img-top"></div>
+                <div class="card-block">
+                    <p class="card-text">Coonvey is FREE...<br>It includes tools that aids transport businesses manage their business affairs and view returns in real time.<br></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mbr-footer-content col-xs-12 col-md-6 col-lg-3">
+            <h4>Categories</h4>
+            <ul><li>Sign up</li><li>Sign in</li><li>Support</li></ul>
+        </div>
+        <div class="mbr-footer-content col-xs-12 col-md-6 col-lg-3">
+            <p>
+                <strong>Contacts</strong><br> <ul class="list-group list-group-flush">
+
+
+
+                    <span class="list-group-icon"><span class="etl-icon icon-envelope mbr-iconfont-company-contacts3"></span></span>
+                    <span class="list-group-text"><a href="mailto:support@coonvey.com">support@coonvey.com</a></span>
+
+                </ul>
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3" data-form-type="formoid">
+
+            <div data-form-alert="true">
+                <div hidden="" data-form-alert-success="true">
+                    Thanks for using COONVEY!<br>
+                    Our support team will get back to you within 24hours.
+                </div>
+            </div>
+
+
+            <form action="#" method="post" data-form-title="MESSAGE">
+
+                <input type="hidden" value="AqW81Go2vg14ToQp0mNQTtXDhkBzQNJVHgh3VsKzVZfbWmMfKJ3IUiVi+qAjNy7NC8AV8CiLHQyV/o8OFHeUM1ASx6l+tRqiQcDkfU+kNuBwcUjb0MNPD6FFncwyNth9" data-form-email="true">
+
+
+
+                <div class="form-group">
+                    <label class="form-control-label" for="contacts3-n-email">Email<span class="form-asterisk">*</span></label>
+                    <input type="email" class="form-control input-sm input-inverse" name="email" required data-form-field="Email" id="contacts3-n-email">
+                </div>
+
+
+
+                <div class="form-group">
+                    <label class="form-control-label" for="contacts3-n-message">Message</label>
+                    <textarea class="form-control input-sm input-inverse" name="message" data-form-field="Message" rows="5" id="contacts3-n-message"></textarea>
+                </div>
+
+                <div><button type="submit" class="btn btn-sm btn-black">Contact us</button></div>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-o" style="background-color: rgb(50, 50, 50); padding-top: 0.875rem; padding-bottom: 0.875rem;">
+
+    <div class="container">
+        <p class="text-xs-center">Copyright (c) 2017 Coonvey</p>
+    </div>
+</footer>
+  <!--<div class="container">
     <div class="row">
       <div class="col-md-offset-2 col-md-7">
-        {+body /}
+
       </div>
     </div>
 
-  </div>
+  </div>-->
 
-  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+
+  <!--  jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <script src="/assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="/assets/tether/tether.min.js"></script>
+  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/assets/smooth-scroll/SmoothScroll.js"></script>
+  <script src="/assets/viewportChecker/jquery.viewportchecker.js"></script>
+  <script src="/assets/dropdown/js/script.min.js"></script>
+  <script src="/assets/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="/assets/jarallax/jarallax.js"></script>
+  <script src="/assets/theme/js/script.js"></script>
+  <script src="/assets/formoid/formoid.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+
+        var today = new Date();
+        today = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+        var maxDayLimit = new Date(new Date(today).setDate(today.getDate() + 5));
+
+        var options={
+          format: 'mm/dd/yyyy',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+
+        };
+        date_input.datepicker(options);
+        $('#departure_date').fullCalendar('gotoDate', '2014-05-01');
+        //$('#departure_date').fullCalendar('gotoDate', today);
+
+      })
+      </script>
 </body>
 </html>
