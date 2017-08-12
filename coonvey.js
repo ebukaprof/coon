@@ -24,16 +24,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-/**var config = require('./server/config/config.js');
-config.setConfig();
-const client = new pg.Client(process.env.PG_CONFIG);
-client.connect((err)=> {
-  console.log("DB error stack" + err.stack);
-  console.log("DB error" + err);
-})**/
-
-
-
 // Routes
 app.use('/', require('./routes/public'));
 app.use('/token', require('./routes/token'));

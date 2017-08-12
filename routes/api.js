@@ -1,15 +1,20 @@
 // Dependencies
 var express = require('express');
-var router = express.Router();
+var bodyParser = require('body-parser');
+var formValidator = require('express-validator');
 var pg = require('pg');
 var jwt = require('jsonwebtoken');
+var router = express.Router();
 
 // data
 var dummyData = [];
 
 // Controllers
 var dataController = require('../server/controllers/data-controller.js');
+var helperController = require('../server/controllers/helper-controller.js');
 
+// Body parser Middleware
+router.use(bodyParser.urlencoded({ extended: false }));
 // Validation Middleware
 router.use(function(req, res, next){
   var token = req.body.token || req.headers['token'];
@@ -27,6 +32,8 @@ router.use(function(req, res, next){
     res.send("Please send a token");
   }
 });
+// Param validator
+router.use(formValidator());
 
 // Routes
 router.post('/', function(req, res){
