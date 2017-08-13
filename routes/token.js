@@ -6,7 +6,6 @@ var tokenrouter = express.Router();
 var pg = require('pg');
 
 var authenticateController = require('../server/controllers/authenticate-controller.js');
-process.env.SECRET_KEY = "coonveykeysign";
 
 // Param validator
 tokenrouter.use(formValidator());

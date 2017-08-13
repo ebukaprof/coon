@@ -17,6 +17,7 @@
     "dustjs-helpers": "^1.7.3",
     "dustjs-linkedin": "^2.7.5",
     "express": "^4.15.3",
+    "express-mailer": "^0.3.1",
     "express-validator": "^3.2.1",
     "jsonwebtoken": "^7.4.2",
     "node-restful": "^0.2.6",
