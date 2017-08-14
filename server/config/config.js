@@ -1,4 +1,8 @@
 ////DB Connect String
+//ngrok http 5000
+//https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+//https://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619
+
 var pg = require('pg');
 process.env.SECRET_KEY = "coonveykeysign";
 process.env.MAIL_USERNAME;
