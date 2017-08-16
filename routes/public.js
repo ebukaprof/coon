@@ -9,6 +9,9 @@ router.get('/', function(req, res){
 router.get("/aboutus", function(req, res){
   res.render('aboutus');
 });
+router.get("/contactus", function(req, res){
+  res.render('contactus');
+});
 
 // Return router
 module.exports = router;

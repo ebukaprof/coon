@@ -1,5 +1,17 @@
 var validator = require('validator');
-var mailerservice = require('../services/app-mailer.js');
+const nodemailer = require('nodemailer');
+//var mailerservice = require('../services/app-mailer.js');
+
+
+let transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
+  auth: {
+    user: process.env.MAIL_USERNAME,
+    pass: process.env.MAIL_PASSWORD
+  }
+});
 
 module.exports = {
   generateUUID: function()
@@ -22,7 +34,7 @@ module.exports = {
   {
     return validator.isEmail(emailString);
   },
-  sendMail: function(to_email, subject, message){
+  /**sendMyMail: function(to_email, subject, message){
     coonvey.mailer.send(to_email, {
       //
       template: 'email',
@@ -36,6 +48,24 @@ module.exports = {
         return;
       }
       return 'Email Sent';
+    });
+  },**/
+  sendMyMail: function(from, to_address, subjectline, htmlTemplate)
+  {
+    // setup email data with unicode symbols
+    let mailOptions = {
+        from: '"Coonvey Solution 👻" <info@no-reply-coonvey.com>', // sender address
+        to: to_address, //'bar@blurdybloop.com, baz@blurdybloop.com', // list of receivers
+        subject: subjectline, //'Hello ✔', // Subject line
+        //text: 'Hello world ?', // plain text body
+        html: htmlTemplate //'<b>Hello world ?</b>' // html body
+    };
+    // send mail with defined transport object
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log('Message %s sent: %s', info.messageId, info.response);
     });
   },
   getTimeOfDay: function()

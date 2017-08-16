@@ -5,8 +5,10 @@
 
 var pg = require('pg');
 process.env.SECRET_KEY = "coonveykeysign";
-process.env.MAIL_USERNAME;
-process.env.MAIL_PASSWORD;
+process.env.MAIL_USERNAME = "";
+process.env.MAIL_PASSWORD = "";
+process.env.APPPORT = 5000;
+process.env.SESSION_SECRET = "coonveysecret";
 
 var config = {
   user: 'coonvey', //pg user

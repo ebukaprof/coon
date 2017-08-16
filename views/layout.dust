@@ -30,11 +30,6 @@
   <div class="mbr-table">
     <div class="mbr-table-cell">
 
-        <!--<div class="navbar-brand">
-            <a href="#" class="navbar-logo"><img src="/assets/images/apple-touch-icon-180x180-128x128-76.png" alt="Coonvey"></a>
-            <a class="navbar-caption" href="#">COONVEY</a>
-        </div>-->
-
     </div>
     <div class="mbr-table-cell">
 
@@ -48,32 +43,20 @@
                     <li class="nav-item"><a class="nav-link link" href="#"><img src="/assets/images/dashboard.png" width="26" height="26">&nbsp;&nbsp;&nbsp;Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link link" href="#"><img src="/assets/images/transactions.png" width="26" height="26">&nbsp;&nbsp;&nbsp;Transactions</a></li>
                     <li class="nav-item"><a class="nav-link link" href="#"><img src="/assets/images/support.png" width="26" height="26">&nbsp;&nbsp;&nbsp;Support</a></li>
-                    <!--<li class="nav-item dropdown open">
-                        <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true"><span class="mbri-users mbr-iconfont mbr-iconfont-btn" style="font-size: 35px;"></span></a>
-                        <div class="dropdown-menu">
-                            <span>User</span>
-                            <a class="dropdown-item" href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
-</div>
-                    </li>-->
 
                 <li class="nav-item"><a class="nav-link link" href="@Url.Action("Partner", "Home")"><img src="/assets/images/partner.png" width="26" height="26">&nbsp;&nbsp;&nbsp;Partner</a></li>
                 <li class="nav-item"><a class="nav-link link" href="@Url.Action("Support", "Home")"><img src="/assets/images/support.png" width="26" height="26">&nbsp;&nbsp;&nbsp;Support</a></li>
                     <li class="nav-item dropdown open">
                         <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true"><span class="mbri-users mbr-iconfont mbr-iconfont-btn" style="font-size: 35px;"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Sign in</a>
-                            <a class="dropdown-item" href="#">Sign up</a>
+                            <a class="dropdown-item" href="membership/login">Sign in</a>
+                            <a class="dropdown-item" href="membership/register">Sign up</a>
                         </div>
                     </li>
-
-
-
         </ul>
-
             <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                 <div class="close-icon"></div>
             </button>
-
         </div>
 </div>
 
@@ -96,8 +79,6 @@
 </section>
 
 <section class="mbr-footer mbr-section mbr-section-md-padding mbr-parallax-background" id="contacts3-n" style="background-image: url(/assets/images/footer-2000x832-2.png); padding-top: 30px; padding-bottom: 30px;">
-
-
     <div class="row">
         <div class="mbr-company col-xs-12 col-md-6 col-lg-3">
 
@@ -117,9 +98,6 @@
         <div class="mbr-footer-content col-xs-12 col-md-6 col-lg-3">
             <p>
                 <strong>Contacts</strong><br> <ul class="list-group list-group-flush">
-
-
-
                     <span class="list-group-icon"><span class="etl-icon icon-envelope mbr-iconfont-company-contacts3"></span></span>
                     <span class="list-group-text"><a href="mailto:support@coonvey.com">support@coonvey.com</a></span>
 
