@@ -15,6 +15,19 @@ var helperController = require('../server/controllers/helper-controller.js');
 
 // Body parser Middleware
 router.use(bodyParser.urlencoded({ extended: false }));
+router.get('/users', function(req,res){
+  var username;
+
+  dataController.getUserByUsername("ebukaprof@gmail.com",function(cb){
+    username = cb.UserName;
+    dummyData.push(cb);
+    console.log(username);
+  });
+  //res.write(JSON.stringify("Successful " + username, null, "    ") + "\n");
+  res.write("Successful " + username);
+  res.end();
+
+});
 // Validation Middleware
 router.use(function(req, res, next){
   var token = req.body.token || req.headers['token'];
@@ -42,6 +55,7 @@ router.post('/', function(req, res){
 });
 
 router.post('/countries', function(req,res){
+  //dataController.getUserByUsername("ebukaprof@gmail.com",res);
   dataController.getCountries(req,res);
 });
 
